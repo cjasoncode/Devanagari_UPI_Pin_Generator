@@ -1,4 +1,4 @@
-<h1 style="front-size: 20px; color: blue;">         Devanagari UPI PIN Generator</h1> 
+<h1 style="front-size: 20px; color: blue;">                                     Devanagari UPI PIN Generator</h1> 
 
 This Python script is inspired by **Axis Bank's Devanagari UPI PIN generation** feature. It allows users to generate a UPI PIN based on a Devanagari (Hindi) word input. Each Devanagari character is mapped to a specific number, and the script generates both 4-digit and 6-digit UPI PINs from the input word.
  
@@ -21,4 +21,4 @@ This Python script is inspired by **Axis Bank's Devanagari UPI PIN generation** 
 5. If the base PIN is 3 digits long, it is duplicated to create a 6-digit PIN.
 6. The script outputs both 4-digit and 6-digit UPI PINs.
 
-Enter a word in Devanagari ( उदाहरण : भारद्वाज , पर्व  ) :   भारद्वाज
+ 
