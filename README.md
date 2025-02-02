@@ -35,3 +35,5 @@ Axis Bank introduced **Devanagari PIN**, a revolutionary feature that allows use
 - ✍️ **Unique PINs**: Devanagari script allows users to create unique and personalized PINs that are harder to guess.
 
  
+## Inspiration
+This project is inspired by Axis Bank's Devanagari UPI PIN generation feature, which allows users to create UPI PINs using Hindi words. The goal of this project is to replicate and explore the logic behind such a system in a simple and open-source manner.
