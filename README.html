@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devanagari UPI PIN Generator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
+        code {
+            background-color: #f4f4f4;
+            padding: 2px 5px;
+            border-radius: 3px;
+            font-family: monospace;
+        }
+        pre {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Devanagari UPI PIN Generator</h1>
+        <p>This Python script is inspired by <strong>Axis Bank's Devanagari UPI PIN generation</strong> feature. It allows users to generate a UPI PIN based on a Devanagari (Hindi) word input. Each Devanagari character is mapped to a specific number, and the script generates both 4-digit and 6-digit UPI PINs from the input word.</p>
+
+        <h2>Features</h2>
+        <ul>
+            <li><strong>Devanagari to Number Mapping</strong>: Each Devanagari character is mapped to a unique number, similar to Axis Bank's implementation.</li>
+            <li><strong>UPI PIN Generation</strong>: Generates both 4-digit and 6-digit UPI PINs.</li>
+            <li><strong>Input Validation</strong>: Ensures the input is a valid Devanagari word.</li>
+            <li><strong>Word Separation</strong>: Displays the separated characters of the input word for clarity.</li>
+            <li><strong>Error Handling</strong>: Provides clear error messages for invalid inputs.</li>
+        </ul>
+
+        <h2>How It Works</h2>
+        <ol>
+            <li>The user inputs a word in Devanagari script (e.g., <code>भारद्वाज</code>).</li>
+            <li>The script breaks the word into individual characters.</li>
+            <li>Each character is mapped to a corresponding number using a predefined mapping.</li>
+            <li>The numbers are concatenated to form a base PIN.</li>
+            <li>If the base PIN is 3 digits long, it is duplicated to create a 6-digit PIN.</li>
+            <li>The script outputs both 4-digit and 6-digit UPI PINs.</li>
+        </ol>
+
+        <h2>Usage</h2>
+        <h3>Prerequisites</h3>
+        <ul>
+            <li>Python 3.x</li>
+            <li><code>regex</code> library (<code>pip install regex</code>)</li>
+        </ul>
+
+        <h3>Running the Script</h3>
+        <pre><code>git clone https://github.com/your-username/devanagari-upi-pin-generator.git
+cd devanagari-upi-pin-generator
+pip install regex
+python devanagari_upi_pin_generator.py</code></pre>
+
+        <h2>Example</h2>
+        <h3>Input:</h3>
+        <pre><code>Enter a word in Devanagari ( उदाहरण : भारद्वाज , पर्व  ) :   भारद्वाज</code></pre>
+
+        <h3>Output:</h3>
+        <pre><code>Word Separation : भ   ा   र   द   ्   व   ा   ज
+
+                  4   1   2   6   9   1   1
+
+YOUR DEVANAGARI UPI 4 DIGITS PIN IS HERE : 4126
+
+YOUR DEVANAGARI UPI 6 DIGITS PIN IS HERE : 412691</code></pre>
+
+        <h2>Code Structure</h2>
+        <ul>
+            <li><code>break_hindi_word(word)</code>: Breaks the input word into individual characters.</li>
+            <li><code>get_devanagari_number(char)</code>: Maps a Devanagari character to its corresponding number.</li>
+            <li><code>process_word(word)</code>: Processes the input word and generates the number representation.</li>
+            <li><code>main()</code>: Handles user input, validation, and output.</li>
+        </ul>
+
+        <h2>Inspiration</h2>
+        <p>This project is inspired by <strong>Axis Bank's Devanagari UPI PIN generation</strong> feature, which allows users to create UPI PINs using Hindi words. The goal of this project is to replicate and explore the logic behind such a system in a simple and open-source manner.</p>
+
+        <h2>Contributing</h2>
+        <p>Contributions are welcome! If you find any issues or have suggestions for improvement, please open an issue or submit a pull request.</p>
+
+        <h2>License</h2>
+        <p>This project is licensed under the MIT License. See the <a href="LICENSE">LICENSE</a> file for details.</p>
+
+        <h2>Acknowledgments</h2>
+        <ul>
+            <li>Inspired by <strong>Axis Bank's Devanagari UPI PIN generation</strong> feature.</li>
+            <li>Thanks to the <code>regex</code> library for handling Devanagari characters effectively.</li>
+        </ul>
+
+        <h2>Contact</h2>
+        <p>For questions or feedback, feel free to reach out:</p>
+        <ul>
+            <li><strong>GitHub</strong>: <a href="https://github.com/your-username">your-username</a></li>
+            <li><strong>Email</strong>: <a href="mailto:your-email@example.com">your-email@example.com</a></li>
+        </ul>
+
+        <p>Enjoy generating your UPI PINs with Devanagari words, just like Axis Bank's feature! 🎉</p>
+    </div>
+</body>
+</html>
