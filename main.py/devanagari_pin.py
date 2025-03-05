@@ -121,13 +121,13 @@ def process_word(word):
         if num:
             number_representation.append(num)
          
-    # Display unrecognized characters if any
+   
     for char in unrecognized_characters:
         print(f"{char}")
 
     return number_representation
 
-# Take input from the user
+
 time.sleep(2)
 hindi_word = input("Enter a word in Devanagari ( उदाहरण : भारद्वाज , पर्व  ) :   ")
  
@@ -153,7 +153,6 @@ else:
 
 
 
-# Filter out allowed characters for processing
  characters = [char for char in hindi_word if char in allowed_matras or ('अ' <= char <= 'ह')]
  time.sleep(2)
  print(f"\nWord Sepration : {"   ".join(characters)}\n")
