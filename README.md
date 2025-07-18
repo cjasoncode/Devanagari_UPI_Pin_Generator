@@ -73,7 +73,7 @@ WELCOME TO DEVANAGARI UPI PIN GENERATOR
 Enter a word in Devanagari (उदाहरण: भारद्वाज, पर्व): भारद्वाज
 
 Word Separation: भ ा र द ् व ा ज
-4 1 2 6 9 1 1
+                 4 1 2 6 9 1 1
 YOUR DEVANAGARI UPI 4 DIGITS PIN IS HERE: 4126
 YOUR DEVANAGARI UPI 6 DIGITS PIN IS HERE: 412691
 
@@ -81,12 +81,12 @@ YOUR DEVANAGARI UPI 6 DIGITS PIN IS HERE: 412691
 ```
 WELCOME TO DEVANAGARI UPI PIN GENERATOR
 
-Enter a word in Devanagari (उदाहरण: भारद्वाज, पर्व): त्रिप्टि
+Enter a word in Devanagari (उदाहरण: भारद्वाज, पर्व): तृप्ति
 
-Word Separation: त ् र ि प ् ट ि
-7 2 1 1 4 0 0 1
-YOUR DEVANAGARI UPI 4 DIGITS PIN IS HERE: 7211
-YOUR DEVANAGARI UPI 6 DIGITS PIN IS HERE: 721140
+Word Separation: त ृ प ् ट ि
+                 7 4 7 1 
+YOUR DEVANAGARI UPI 4 DIGITS PIN IS HERE: 7471
+YOUR DEVANAGARI UPI 6 DIGITS PIN IS HERE: 747174
 ```
 
 ---

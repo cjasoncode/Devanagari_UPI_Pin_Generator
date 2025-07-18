@@ -1,5 +1,12 @@
 import regex as re
 import time
+import sys
+
+# Fix for Windows terminal to support UTF-8
+if sys.platform.startswith("win"):
+    import os
+    os.system("chcp 65001 >NUL")
+    
 
 def break_hindi_word(word):
     return re.findall(r'\X', word)  
@@ -162,7 +169,15 @@ else:
       condition = pin*2
       time.sleep(2)
       print(f"\nYOUR DEVANAGARI UPI 6 DIGITS PIN IS HERE : {condition}\n")
-      print(f"YOUR DEVANAGARI UPI 4 DIGITS PIN IS HERE : {condition[0:4]}\n\n")  
+      print(f"YOUR DEVANAGARI UPI 4 DIGITS PIN IS HERE : {condition[0:4]}\n\n") 
+
+
+ elif len(pin) == 4:
+    condition = pin * 2
+    time.sleep(2)
+    print(f"\nYOUR DEVANAGARI UPI 6 DIGITS PIN IS HERE : {condition[0:6]}\n")
+    print(f"YOUR DEVANAGARI UPI 4 DIGITS PIN IS HERE : {condition[0:4]}\n\n")
+
       
      
  else:    
