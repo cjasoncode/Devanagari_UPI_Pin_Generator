@@ -9,9 +9,9 @@
 </p>
 
 <p align="center">
-  <br>
-<img src="image\banner.png" alt="Devanagari UPI PIN Generator" width="500/>
+  <img src="image/banner.png" alt="Devanagari UPI PIN Generator" width="500"/>
 </p>
+
 
 
 ---
