@@ -130,3 +130,35 @@ YOUR DEVANAGARI UPI 6 DIGITS PIN IS HERE: 721140
       पर्व
       त्रिप्टि
      ```
+## 🚀 Future Enhancements
+- ✅ Add **Graphical User Interface (GUI)** with Tkinter  
+- ✅ Support for **multiple Indian languages**  
+- ✅ Add **export option for PINs**  
+- ✅ Web version using **Flask or Django**  
+
+---
+
+## 🧩 Use Cases
+- ✔ Educational purpose (learn Regex & Unicode in Python)  
+- ✔ Banking concept simulation  
+- ✔ Fun project for **Python beginners**  
+
+---
+
+## 📜 License
+This project is **for educational purposes only** and is not affiliated with any bank.
+
+---
+
+## 🙌 Credits
+
+- Concept inspired by **Axis Bank's Devanagari UPI PIN feature**  
+- Developed by **[cjasoncode](https://github.com/cjasoncode)**  
+- Special thanks to the **Python & Open Source Community**  
+
+
+---
+
+### ⭐ Show Your Support
+If you like this project, **give it a star** ⭐ on [GitHub](https://github.com/cjasoncode/Devanagari_UPI_Pin_Generator)
+
